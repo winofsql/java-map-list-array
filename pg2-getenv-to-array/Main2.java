@@ -14,7 +14,7 @@ public class Main2 {
         // 通常 for
         for( int i = 0; i < keys.length; i++ ) {
             String key_value = keys[i];
-            String out = String.format( "%s : %s", key, env.get( key ) );
+            String out = String.format( "%s : %s", key_value, env.get( key_value ) );
             System.out.println( out );
         }
 
