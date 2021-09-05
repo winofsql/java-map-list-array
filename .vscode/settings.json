@@ -1,1 +1,8 @@
-
+{
+    "java.project.sourcePaths": [
+        "pg1-map-getenv",
+        "pg2-getenv-to-array",
+        "pg3-array-list",
+        "pg4-map-for-each"
+    ]
+}
