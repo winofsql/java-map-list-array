@@ -20,6 +20,15 @@ public class Pg4MapForEach {
             System.out.println( out );
         });
 
+        System.out.println( "----------------------------------------" );
+
+        Map<Object, Object> map = System.getProperties();
+
+        map.forEach( (key, value) -> {
+            String out = String.format( "%s : %s", key, value );
+            System.out.println( out );
+        });
+
     }
 
 }
