@@ -11,6 +11,15 @@ public class Pg4MapForEach {
             System.out.println( out );
         });
 
+        System.out.println( "----------------------------------------" );
+
+        Properties props = System.getProperties();
+
+        props.forEach( (key, value) -> {
+            String out = String.format( "%s : %s", key, value );
+            System.out.println( out );
+        });
+
     }
 
 }
