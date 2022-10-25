@@ -7,7 +7,7 @@ Java: Clean Java Language Server Workspace
 ```
 
 ## forEach メソッドと変数参照
-```
+```java
 import java.util.*;
 
 class Main {
